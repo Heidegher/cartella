@@ -1,0 +1,66 @@
+nav {   justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #17aaff;
+    height: 80px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.795)
+    
+}
+
+body{
+    background-color: #afbbff;
+    margin: 0;
+}
+
+h1{
+    margin-left: 70px;
+}
+
+input {
+    border-radius: 10px;
+    height: 40px;
+     
+}
+
+#titoloLavorativo {
+
+    margin-left: 250px;
+
+}
+button{
+    margin-right: 100px;
+    border-radius: 10px;
+    height: 45px;
+    width: 200px;
+
+}
+
+div {
+    display: flex;
+    background-color: rgb(196, 194, 209);
+    margin-inline-end: 1px;
+    flex-wrap: wrap;
+    
+
+}
+main{
+    display: flex;
+    margin-top: 80px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border: 2px solid #333;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.795);
+
+}
+
+p{
+    margin-left: 10px;
+}
